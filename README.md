@@ -1,6 +1,6 @@
-# GenSC-6G: Scalable Semantic Communication Framework
+# GenSC-6G - Scalable Semantic Communication Framework and Dataset
 
-This repository contains the **first semantic communication dataset and playground**, designed to be scalable, reproducible, and adaptable for a wide range of applications. The dataset and framework are tailored for semantic decoding, classification, and localization tasks in 6G applications, integrating generative AI and semantic communication.
+This repository contains the **first semantic communication dataset and playground**, designed to be scalable, reproducible, and adaptable for a wide range of applications. The dataset and framework are tailored for semantic decoding, classification, and localization tasks in 6G applications, integrating generative AI and semantic communication. Implementation of **[GenSC-6G: A Prototype Testbed for Integrated Generative AI, Quantum, and Semantic Communication](https://arxiv.org/abs/2501.09918)**.
 
 ---
 
