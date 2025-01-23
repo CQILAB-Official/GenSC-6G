@@ -118,13 +118,16 @@ A detailed case study that evaluates baseline models across various semantic tas
   python train_super_res.py
   ```
 #### Example of Running Experiments
-- Train different models using:
+- Train-test  different models classification ([inceptionv3, resnet, qresnet, vit, swin, mobilenet, efficientnet, vgg, qcnn]) using:
   ```bash
-  python train.py --model_name resnet --dataset aider --batch_size 32 --noise_type awgn
+  python train.py --model_name resnet --batch_size 32 --snr 10
   ```
-- Evaluate models with:
   ```bash
-  python test.py --model_name resnet --dataset aider --noise_type awgn
+  python train_nonquantum.py --model_name resnet --batch_size 32 --snr 10
+  ```
+- Train-test different models upsampling with:
+  ```bash
+  python train_super_res.py --model_name resnet --batch_size 32 --snr 10
   ```
 
 #### For Interactive Examples
