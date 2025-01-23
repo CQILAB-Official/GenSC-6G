@@ -209,7 +209,18 @@ If you use this dataset or framework in your research, please cite:
 
 ---
 
-## References
+## Others
 
 - Official Repository: [CQILAB/GenSC-6G](https://github.com/CQILAB-Official/GenSC-6G)
 - Dataset: [HuggingFace](https://huggingface.co/datasets/CQILAB/GenSC-6G)
+
+## License
+```
+MIT License
+```
+
+## Contributor
+- Brian Estadimas
+- Shehbaz Tariq
+
+You can contribute by adding your own model or modifying the code. Make a pull request (PR), and once it is merged, your name will be listed here.
