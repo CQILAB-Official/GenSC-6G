@@ -100,7 +100,7 @@ A detailed case study that evaluates baseline models across various semantic tas
   ```
 
 ### 2. Dataset Setup
-- Download the dataset from [HuggingFace](https://huggingface.co/datasets/CQILAB/GenSC-6G):
+- Download the dataset from [HuggingFace🤗](https://huggingface.co/datasets/CQILAB/GenSC-6G):
   ```bash
   cd GenSC-Testbed
   git clone https://huggingface.co/datasets/CQILAB/GenSC-6G
@@ -149,7 +149,7 @@ A detailed case study that evaluates baseline models across various semantic tas
 ## Reproducibility
 
 ### 🗃️ Dataset 
-Labeled dataset with ground-truth data, noise features, and extracted semantic features. Uploaded to **[Huggingface](https://huggingface.co/datasets/CQILAB/GenSC-6G)**
+Labeled dataset with ground-truth data, noise features, and extracted semantic features. Uploaded to **[HuggingFace🤗](https://huggingface.co/datasets/CQILAB/GenSC-6G)**
 #### Dataset Columns and Descriptions
 - **image**: Raw image data used for training and evaluation.
 - **image_path**: Path to the corresponding image file.
@@ -224,3 +224,6 @@ MIT License
 - Shehbaz Tariq
 
 You can contribute by adding your own model or modifying the code. Make a pull request (PR), and once it is merged, your name will be listed here.
+
+## Changelogs
+- Dataset uploaded to HuggingFace and Repo intiated
