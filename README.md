@@ -156,7 +156,6 @@ Labeled dataset with ground-truth data, noise features, and extracted semantic f
 #### Dataset Columns and Descriptions
 - **image**: Raw image data used for training and evaluation.
 - **image_path**: Path to the corresponding image file.
-- **imagewidth (px)**: Width of the image in pixels.
 - **classification_class**: Integer label corresponding to the classification category (0-15).
 - **classification_{basemodel}_features**: Extracted feature embeddings from `{basemodel}`'s encoder, consisting of 1000 float32 tensors.
 - **classification_awgn10dB_{basemodel}_features**: Feature embeddings extracted from `{basemodel}` encoder with Additive White Gaussian Noise (AWGN) at 10dB SNR.
