@@ -50,13 +50,13 @@ A detailed case study that evaluates baseline models across various semantic tas
   </tr>
   <tr>
     <td>ViT-L-32</td>
-    <td>SegFormer</td>
+    <td>EfficientNet</td>
     <td>DINO-V2</td>
     <td>BLIP-2</td>
   </tr>
   <tr>
     <td>ResNet-50</td>
-    <td>DeepLabV3</td>
+    <td>SAM</td>
     <td>ViT-L-32</td>
     <td>GPT-4</td>
   </tr>
