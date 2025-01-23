@@ -3,7 +3,7 @@ import torch.nn as nn
 from torchvision import transforms, datasets
 from torch.utils.data import DataLoader, Subset
 import argparse, os
-from allmodels_superres import ClassicalInceptionV3, QuantumInceptionV3,  ClassicalResNet, QuantumResNet50, ViT32, QViT32, SwinT, QSwinT
+from SemanticTestbed.allmodels_superres_nonfeatup import ClassicalInceptionV3, QuantumInceptionV3,  ClassicalResNet, QuantumResNet50, ViT32, QViT32, SwinT, QSwinT
 import torch.optim as optim
 from tqdm import tqdm
 import torch.nn.functional as F
