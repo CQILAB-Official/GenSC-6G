@@ -162,6 +162,24 @@ Labeled dataset with ground-truth data, noise features, and extracted semantic f
 - **upsampling_awgn10dB_{basemodel}_features**: Upsampling features with AWGN at 10dB SNR for `{basemodel}`.
 - **upsampling_awgn30dB_{basemodel}_features**: Upsampling features with AWGN at 30dB SNR for `{basemodel}`.
 
+### 🏗️ Testbed
+To experiment with real-world semantic communication, you can use the **GNURadio and HackRF**.
+1. **Install Dependencies**:
+   - Install [GNU Radio](https://www.gnuradio.org/)
+   - Install HackRF tools: `sudo apt install hackrf`
+2. **Configure Transceiver**:
+   - Transmitter config: `GNURadio/transmitter.grc`
+   - Outputs a **streaming binary file**
+3. **Run Transmitter**:
+   - Open `GNURadio/transmitter.grc` in GNU Radio Companion
+   - Set SDR parameters (frequency, gain, bandwidth)
+   - Execute to start transmission
+4. **Run Receiver**:
+   - Modify `GNURadio/receiver.grc` settings
+   - Run to capture and process signals
+By following these steps, you can replicate real-world transmission experiments using the testbed and analyze its performance.
+
+
 ### 💻 Flexible Code  
 Modular structure for customization, including:
   - Base models
