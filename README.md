@@ -95,7 +95,7 @@ A detailed case study that evaluates baseline models across various semantic tas
 - Create an environment using:
   ```bash
   conda env create -f environment.yml  # For classical-only setup
-  conda env create -f environment-q.yml  # For HQC setup
+  conda env create -f environment-quantum.yml  # For HQC setup
   conda activate gensc
   ```
 - If it does not work, alternatively, please use and adjust
