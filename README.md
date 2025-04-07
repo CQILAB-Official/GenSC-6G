@@ -98,6 +98,10 @@ A detailed case study that evaluates baseline models across various semantic tas
   conda env create -f environment-quantum.yml  # For HQC setup
   conda activate gensc
   ```
+- If it does not work, alternatively, please use and adjust
+  ```bash
+  requirements.txt
+  ```
 
 ### 2. Dataset Setup
 - Download the dataset from [HuggingFace🤗](https://huggingface.co/datasets/CQILAB/GenSC-6G):
@@ -131,8 +135,8 @@ A detailed case study that evaluates baseline models across various semantic tas
   ```
 
 #### For Interactive Examples
-  - `playground-training-classification.ipynb`
-  - `playground-training-upsampling-and-edgellm.ipynb`
+  - (upcoming) `playground-training-classification.ipynb`
+  - (upcoming) `playground-training-upsampling-and-edgellm.ipynb`
 
   **Set the kernel to `gensc`**.
 
@@ -145,7 +149,7 @@ A detailed case study that evaluates baseline models across various semantic tas
   - Pair with decoders defined in `decoder.py`.
 
 - **Edge LLM Models**:
-  - Replace the edge-based large language model (LLM) with alternatives in `playground-training-upsampling-and-edgellm.ipynb`.
+  - Replace the edge-based large language model (LLM) with alternatives in (upcoming) `playground-training-upsampling-and-edgellm.ipynb`.
 
 ---
 
